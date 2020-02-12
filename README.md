@@ -8,7 +8,7 @@ This python code has two functions:
 
 * `get_users_handles()` will fetch all the handles of the **USERS** from `https://hackerone.com/sitemap/`.
  
-* `crawl_userprofiles()` will fetch the stored handles and scrape the following data from `https://hackerone.com/{handle}`
+* `crawl_user_profiles()` will fetch the stored handles and scrape the following data from `https://hackerone.com/{handle}`
 
 | # | Name |
 |---|---|
