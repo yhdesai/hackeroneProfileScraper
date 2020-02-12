@@ -47,6 +47,7 @@ This python code has two functions:
 
 * Import **h1crawler.sql**.
 * Change your Mysql server credentials in **config.py** before running the script.
+* Install all the requirements `pip3 install -r requirements.txt`.
 
 
 
