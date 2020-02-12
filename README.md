@@ -132,6 +132,26 @@ SELECT username,website FROM `profiles` WHERE resolved_report_count > 0 AND webs
 
 ![data](https://user-images.githubusercontent.com/43368124/74335899-d7948980-4da5-11ea-8186-c879bee1c5ed.png)
 
+
+Imagine you want to count the number of the users who have > 0 resolved report UNION users with the rank between 100 AND 500
+UNION users who have reputation between 10 AND 150
+
+```sql
+SELECT COUNT(*) as coun FROM `profiles` WHERE resolved_report_count > 0 
+UNION
+SELECT COUNT(*) FROM `profiles` WHERE rank BETWEEN 100 AND 500
+UNION 
+SELECT COUNT(*) FROM `profiles` WHERE reputation BETWEEN 10 AND 150
+
+```
+| condition | count() |
+|---|---|
+| resolved | 724 |
+| rank between 100 AND 500 | 51 |
+| reputation between 10 AND 150 | 1564 |
+
+![chart (4)](https://user-images.githubusercontent.com/43368124/74353015-f86ad800-4dc1-11ea-920c-04549a89866c.png)
+
 Great, no ?
 
 ---
