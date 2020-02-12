@@ -1,6 +1,6 @@
 ## Hackerone Profile Scraper
 
-This is my :spaghetti: code to scrape all the profiles from hackerone.com
+My :spaghetti: code to scrape all the profiles from hackerone.com
 
 ### Description
 
