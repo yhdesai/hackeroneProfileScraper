@@ -85,7 +85,7 @@ CREATE TABLE `profiles` (
 
 ### Bonus :moneybag:
 
-I crawled **~633,801** handles & **~12,483** profiles, you can run `crawl_userprofiles()` to finish with the rest.
+I crawled **~633,801** handles & **~12,483** profiles, you can run `crawl_user_profiles()` to finish with the rest.
 
 You can find the crawled data in 3 different formats: **csv** - **json** - **sql**
 
