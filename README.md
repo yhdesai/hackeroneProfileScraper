@@ -138,5 +138,5 @@ Great, no ?
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/bohrhadi)
 
-![Bitcoin_QR_code](https://user-images.githubusercontent.com/43368124/74347021-1f70dc00-4db9-11ea-96a6-42809d8878f1.png){:height="50%" width="50%"}
+<img src="https://user-images.githubusercontent.com/43368124/74347021-1f70dc00-4db9-11ea-96a6-42809d8878f1.png" align="left" height="48" width="48" >
 **BTC:1MZEPJdDxYzTf1jmbxVqH2Kv9cnP7WVWJx**
